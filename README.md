@@ -48,16 +48,6 @@ python bot.py
 
 ## Configuration
 
-### Bot Intents
-
-The bot uses Discord's **intents** to function. The current intents configuration enables the bot to read message content and moderate messages:
-
-```python
-intents = discord.Intents.default()
-intents.messages = True
-intents.message_content = True
-```
-
 ### Moderation Settings
 
 - **STAFF_CHANNEL_ID**: The ID of the channel where moderation requests will be sent.
