@@ -91,4 +91,4 @@ async def on_reaction_add(reaction, user):
         elif str(reaction.emoji) == "❌":
             pass
 
-bot.run("XXX")
+bot.run("YOUR_BOT_TOKEN")
